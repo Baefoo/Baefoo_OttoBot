@@ -63,4 +63,10 @@ void loop() {
         break;
       case 4: //left
         Otto.turn(1, 2000, 1);
-        br
+        break;
+      case 6: //right
+        Otto.turn(1, 2000, -1);
+        break;
+    }
+  }
+}

@@ -37,4 +37,7 @@ void loop() {
   myserial.print("Battery Voltage: ");
   myserial.println(otto.getBatteryVoltage());
   myserial.print("Battery Level: ");
-  myserial.print(otto.get
+  myserial.print(otto.getBatteryLevel());
+  myserial.println("%\n\r");
+  delay(1000);
+}

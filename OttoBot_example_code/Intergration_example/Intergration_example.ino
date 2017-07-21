@@ -191,4 +191,9 @@ void sing() {
         otto._tone(note_A4, beat, 50);
         break;
       case ' ': // space
-      
+        delay(beat/3);
+        break;
+    }
+    notes_index+=1;
+  }
+}

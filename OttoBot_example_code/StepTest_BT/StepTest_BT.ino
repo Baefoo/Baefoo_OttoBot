@@ -146,4 +146,6 @@ void help() {
   btSerial.println("The following items require additional parameters.");
   btSerial.println("walk, turn, bend, shakeLeg, moonwalker, crusaito, flapping");
   btSerial.println("1 means : forward or left, 2 means: backward or right");
-  btSerial.println("e.g: walk 1 (this means This means walking forward.)
+  btSerial.println("e.g: walk 1 (this means This means walking forward.)");
+  btSerial.println("========================================================");
+}

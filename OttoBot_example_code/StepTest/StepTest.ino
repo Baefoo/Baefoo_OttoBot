@@ -145,4 +145,6 @@ void help() {
   Serial.println("The following items require additional parameters.");
   Serial.println("walk, turn, bend, shakeLeg, moonwalker, crusaito, flapping");
   Serial.println("1 means : forward or left, 2 means: backward or right");
-  Serial.println("e.g: walk 1 (this means This means walking forward
+  Serial.println("e.g: walk 1 (this means This means walking forward.)");
+  Serial.println("========================================================");
+}

@@ -68,4 +68,8 @@ void loop() {
 void obstacleDetector(){
    int distance = Otto.getDistance();
         if(distance<15){
-          obstacleDetected = true
+          obstacleDetected = true;
+        }else{
+          obstacleDetected = false;
+        }
+}

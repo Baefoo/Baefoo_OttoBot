@@ -50,4 +50,9 @@ void setup(){
 void loop() {
   while(btSerial.available()) {
     int val = btSerial.parseInt();
-    if (
+    if (val >= 0 && val <= 30) {
+      Otto.putMouth(val, true);
+    }
+    delay(2000);
+  }
+}

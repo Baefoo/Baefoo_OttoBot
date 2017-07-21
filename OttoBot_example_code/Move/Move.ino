@@ -67,4 +67,9 @@ void loop() {
         Serial.println(val);
         break;
       case 6: //right
-  
+        Otto.turn(1, 2000, -1);
+        Serial.println(val);
+        break;
+    }
+  }
+}

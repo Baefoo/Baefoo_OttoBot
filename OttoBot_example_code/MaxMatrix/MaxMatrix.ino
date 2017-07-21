@@ -48,4 +48,9 @@ void setup(){
 void loop() {
   while(Serial.available()) {
     int val = Serial.parseInt();
-    if (
+    if (val >= 0 && val <= 30) {
+      Otto.putMouth(val, true);
+    }
+    delay(2000);
+  }
+}
